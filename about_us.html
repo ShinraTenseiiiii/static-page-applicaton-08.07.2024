@@ -18,11 +18,10 @@
     }
   }
   .show-menu {
+    
       display: flex !important;
     }
 </style>
-<!-- Greensock -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script> 
 </head>
 
 
@@ -80,7 +79,7 @@ mr-1 mb-5 lg:mr-5 lg:mb-5 xl:mr-4 xl:mb-4">
 <div class="bg-scroll h-[400px] bg-center" style="background-image: url('about-first.jpg')">
 
 
-<header class="bg-[rgba(58,58,62,0.14)] fixed backdrop-blur-[10px] w-full top-0 z-50">
+  <header class="bg-[rgba(11,11,11,0.19)] sticky backdrop-blur-[10px] w-full top-0 z-50">
     <!-- Social handle top most -->
 <div class="contact_bar flex flex-row justify-between items-center px-[20px] text-white ">
     <div class="mobile">
@@ -109,15 +108,15 @@ mr-1 mb-5 lg:mr-5 lg:mb-5 xl:mr-4 xl:mb-4">
 
 
 
-    <nav class="flex justify-between items-center pb-5 w-[92%] mx-auto text-2xl">
+    <nav class="flex justify-between items-center w-[92%] mx-auto pb-5 text-2xl">
         <div>
             <img class="w-28 cursor-pointer" src="https://i0.wp.com/tihalt.com/wp-content/uploads/2019/04/logo.png?fit=106%2C25&ssl=1" alt="...">
         </div>
         <div
-            class="nav-links duration-500 md:static absolute md:min-h-fit min-h-[60vh] left-0 top-[-100%] md:w-auto w-full bg-gray-800 backdrop:blur-sm md:bg-transparent flex items-center px-5">
+            class="nav-links duration-500 md:static absolute md:min-h-fit min-h-[60vh] left-0 top-[-60%] md:w-auto w-full bg-gray-800 backdrop:blur-sm md:bg-transparent flex items-center px-5">
             <ul class="flex text-gray-400 md:flex-row flex-col md:items-center md:gap-[4vw] gap-8">
                 <li class="hover:scale-125 transition duration-300 ease-in-out">
-                    <a class="font-extrabold text-white" href="index.html">Home</a>
+                    <a class="font-extrabold text-white" href="#">Home</a>
                 </li>
                 <li class="hover:scale-125 transition duration-300 ease-in-out">
                     <a class="font-extrabold hover:text-white" href="about_us.html">About Us</a>
@@ -140,7 +139,7 @@ mr-1 mb-5 lg:mr-5 lg:mb-5 xl:mr-4 xl:mb-4">
             </ul>
         </div>
         <div class="flex items-center gap-6 ">
-            <button class="bg-orange-300 hover:bg-orange-400 text-white text-xlfont-bold py-2 px-4 border-b-4 border-orange-500 hover:border-orange-200 rounded-full">REQUEST QUOTE</button>
+            <button class="bg-orange-300 hover:bg-orange-400 text-white text-xlfont-bold py-2 px-4 border-b-4 border-orange-500 hover:border-orange-200 rounded-xl">REQUEST QUOTE</button>
             <ion-icon onclick="onToggleMenu(this)" name="menu" class="text-3xl text-white cursor-pointer md:hidden"></ion-icon>
         </div>
 
@@ -150,7 +149,7 @@ mr-1 mb-5 lg:mr-5 lg:mb-5 xl:mr-4 xl:mb-4">
 
 
 
-    <div class="flex-col text-center p-36"> <div class="text-7xl font-extrabold text-slate-100">About Us</div> <div class="text-slate-400">We Provide Services</div> </div>
+    <div class="flex-col text-center p-36"> <div class="text-7xl font-extrabold text-slate-100 ">About Us</div> <div class="text-slate-200 text-lg">We provide the solution for business development</div> </div>
 </div>
 
 
@@ -166,7 +165,7 @@ mr-1 mb-5 lg:mr-5 lg:mb-5 xl:mr-4 xl:mb-4">
 <div class="flex flex-wrap  justify-around">
     
     
-    <div class="flex flex-col w-1/2 items-center p-10">
+    <div class="flex flex-col ma-h-14 p-10">
         <div class="text-center space-y-2">
           <p>NEED to know how technology can bring you value? Never stop looking for better solutions to consult us. We design, develop and manage web-based enterprise solutions and mobile applications. <span class="font-bold text-orange-300">Tihalt Technologies</span> can make your business perform better, compete better, and generate more money. </p>
         </div>
@@ -228,16 +227,16 @@ mr-1 mb-5 lg:mr-5 lg:mb-5 xl:mr-4 xl:mb-4">
 
 <!-- Vision  -->
 <!-- TODO -->
-<div class="flex flex-wrap justify-center items-center p-6 px-16">
-  <div class="flex basis-1 lg:basis-1/2 flex-col p-4">
-    <h2 class="text-4xl font-bold text-[#1E3375]">OUR VISION</h2>
+<div class="flex flex-wrap justify-center items-start m-10">
+
+  <div class="flex sm:w-1/2 flex-col px-2 py-4">
+    <h2 class="text-4xl font-bold text-[#1E3375]">OUR MISSION</h2>
     <p class="mt-8 text-gray-700">
-      Our vision to bring our clients into the modern era through innovation technologies.
-      <strong class="font-semibold">Tihalt Technosoft Pvt. Ltd.</strong>, based in
-      <strong class="font-semibold">Bangalore, India</strong>, we deliver web solutions and digital marketing services. We will engage in sustainable practices and anticipate the needs of our clients. We help clients enjoy life, by offering an affordable solution. Our team serves clients from <strong class="font-semibold">UK, Europe, USA</strong>..
+      The foundations and aspirations of our business remain true to those established by our visionary founders, and their innovation and energy continue to be our inspiration. We always do the right thing. With <strong class="font-semibold">Precision, Pace and Passion. Tihalt Technologies</strong> trusts each other and have fun winning together. We own and shape our future. We create sustainable growth. For All. Our passion and entrepreneurial culture will ensure that we deliver for our customers in quality and assurance – today and in the future. 
     </p>
   </div>
-  <div class="flex basis-1 lg:basis-1/2 flex-col px-8">
+
+  <div class="flex sm:w-1/2 flex-col p-4">
     <h2 class="text-4xl font-bold text-[#1E3375]">OUR MISSION</h2>
     <p class="mt-8 text-gray-700">
       The foundations and aspirations of our business remain true to those established by our visionary founders, and their innovation and energy continue to be our inspiration. We always do the right thing. With <strong class="font-semibold">Precision, Pace and Passion. Tihalt Technologies</strong> trusts each other and have fun winning together. We own and shape our future. We create sustainable growth. For All. Our passion and entrepreneurial culture will ensure that we deliver for our customers in quality and assurance – today and in the future. 
@@ -273,6 +272,55 @@ mr-1 mb-5 lg:mr-5 lg:mb-5 xl:mr-4 xl:mb-4">
 
 
 
+<div class="flex flex-col sm:flex-row m-20 sm:m-2">
+  <div class="flex flex-col justify-center items-center m-10">
+    <div class="bg-cyan-600 p-4 w-12 h-12 flex justify-center items-center rounded-full"><i class="text-2xl fa fa-globe text-white" aria-hidden="true"></i></div>
+    <div>Best Target</div>
+    <div class="text-center">We Quickly generate exceptional Web Solutions via client-based architectures.</div>
+  </div>
+  <div class="flex flex-col justify-center items-center m-10">
+    <div class="bg-cyan-600 p-4 w-12 h-12 flex justify-center items-center rounded-full"><i class="text-2xl fa fa-globe text-white" aria-hidden="true"></i></div>
+    <div>Best Target</div>
+    <div class="text-center">We Quickly generate exceptional Web Solutions via client-based architectures.</div>
+  </div>
+  <div class="flex flex-col justify-center items-center m-10">
+    <div class="bg-cyan-600 p-4 w-12 h-12 flex justify-center items-center rounded-full"><i class="text-2xl fa fa-globe text-white" aria-hidden="true"></i></div>
+    <div>Best Target</div>
+    <div class="text-center">We Quickly generate exceptional Web Solutions via client-based architectures.</div>
+  </div>
+  <div class="flex flex-col justify-center items-center m-10">
+    <div class="bg-cyan-600 p-4 w-12 h-12 flex justify-center items-center rounded-full"><i class="text-2xl fa fa-globe text-white" aria-hidden="true"></i></div>
+    <div>Best Target</div>
+    <div class="text-center">We Quickly generate exceptional Web Solutions via client-based architectures.</div>
+  </div>
+
+</div>
+
+
+
+
+
+
+<div style="background-image: url(https://tihalt.com/wp-content/uploads/2018/03/bg-blog.jpg);">
+
+
+  <div class="text_above flex flex-col justify-center items-center text-center pl-5 pr-5">
+    <span class="mt-7 mb-2 border-white text-slate-300">|</span>
+    <div class="m-2 text-slate-200">OUR CLIENTS</div>
+    <div class="m-2 text-slate-300">THANKS TO OUR VALUABLE CLIENTS WHO MADE IT HAPPEN</div>
+  </div>
+
+
+
+
+
+  
+  
+  
+</div>
+
+
+
 
 
 
@@ -286,7 +334,10 @@ mr-1 mb-5 lg:mr-5 lg:mb-5 xl:mr-4 xl:mb-4">
 
 
 
-
+        function onToggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('show-menu');
+        }
 
 
         window.addEventListener('load', function() {
